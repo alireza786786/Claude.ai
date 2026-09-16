@@ -805,6 +805,20 @@ class SmartScorer:
             # نزدیک به ۹۸٪ نرخ عبور از فیلترینگ دارد — بالاترین امتیاز اضافه را می‌گیرد
             if r.is_reality and "flow=xtls-rprx-vision" in r.config:
                 score += 150
+
+            # سه ترکیب پرکاربرد و پراعتمادی که کاربر بر اساس تجربه‌ی واقعی
+            # مشخص کرده: هرکدام علاوه بر بونوس‌های بالا، امتیاز ترکیبی
+            # جداگانه هم می‌گیرند تا در رده‌بندی نهایی جلوتر بیفتند.
+            config_upper = r.config.upper()
+            is_grpc = "TYPE=GRPC" in config_upper
+            is_tls_plain = "SECURITY=TLS" in config_upper  # TLS معمولی، نه Reality
+            if r.is_vless and r.is_reality and is_grpc:
+                score += 200  # ⚡️ VLESS + gRPC + Reality
+            elif r.is_vless and is_tls_plain:
+                score += 150  # VLESS + TLS
+            elif r.is_vless and r.is_reality:
+                score += 100  # VLESS + Reality (سایر ترنسپورت‌ها)
+
             score += r.stability * 50
             score += self.db.get_reliability_bonus(r.host, r.port)
 
