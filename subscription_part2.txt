@@ -1,7 +1,10 @@
 # 🔥 اشتراک هوشمند V2Ray v2.1
 # 📦 فایل: subscription_part2.txt
-# 📊 تعداد: 1 کانفیگ تست‌شده
-# ⏰ زمان: 2026-09-16 15:21:39
+# 📊 تعداد: 4 کانفیگ تست‌شده
+# ⏰ زمان: 2026-09-19 00:32:15
 # ✨ https://t.me/Goodbaye_filtering
 # ==================================================
-vless://5d16ac22-6eea-426f-b778-6f4c2961faef@176.108.246.58:9881?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&security=reality&sni=dl.google.com&fp=qq&pbk=ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU&type=grpc&serviceName=grpc-tunnel&authority=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%F0%9F%93%A1%F0%9F%87%B7%F0%9F%87%BA%C2%AE%EF%B8%8FRussia%C2%A9%EF%B8%8FMoscow
+vless://d4b08cd6-0903-411a-9dac-45dbdf5c9712@57.131.38.163:2053?encryption=none&fp=chrome&pbk=Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc&security=reality&sid=5b8a942318178e7b&sni=www.apple.com&type=tcp#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B9%C2%AE%EF%B8%8FItaly%C2%A9%EF%B8%8FMilan
+vless://f0b9ae63-91a7-4673-924e-498e0e0828c0@13.212.18.89:8686?encryption=none&security=reality&type=tcp&sni=www.apple.com&pbk=A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw&sid=628b3c90c98ead4f#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%F0%9F%93%A1%F0%9F%87%B8%F0%9F%87%AC%C2%AE%EF%B8%8FSingapore%C2%A9%EF%B8%8FSingapore
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=%2f#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%F0%9F%93%A1%F0%9F%87%A6%F0%9F%87%B2%C2%AE%EF%B8%8FArmenia%C2%A9%EF%B8%8FYerevan
+vless://d7d724b5-17ce-4f3c-877d-dfbf0f07afa1@150.251.113.34:443?security=reality&encryption=none&pbk=8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=150a627d15154cf2#%F0%9F%91%89%F0%9F%86%94%40Goodbaye_filtering%F0%9F%93%A1%F0%9F%87%B5%F0%9F%87%B1%C2%AE%EF%B8%8FPoland%C2%A9%EF%B8%8FWarsaw
